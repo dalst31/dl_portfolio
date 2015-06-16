@@ -21,7 +21,7 @@ padding: 20px 0
 }
 #boxWrapp{
 width:100%;
-max-width:1360px;
+/*max-width:1360px;*/
 margin:0 auto;
 padding:0;
 overflow:hidden;
@@ -39,23 +39,25 @@ position:relative;
 
 /* =============================== header ===================================== */
 .header {
-background: url(../img/website_tree.jpg) no-repeat center fixed;
-    -webkit-background-size: cover;
--moz-background-size: cover;
--o-background-size: cover;
-background-size: cover;
-filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='.myBackground.jpg', sizingMethod='scale');
--ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='myBackground.jpg', sizingMethod='scale')";
-position:relative;
+  background-attachment: scroll, scroll, scroll, fixed;
+  background: url('../img/bksunset.png') no-repeat 50% 50%; 
+  background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  width: 100%;
+  height: 100vh;
+  padding: 6em 0;
+  text-align: center;
 }
-.maskHeader{
+/*.maskHeader{
 position:absolute;
 top:0;
 left:0;
 width:100%;
 height:100%;
 background:rgba(51, 204, 153, 0.5);
-}
+}*/
 
 .vert-text {
  width:100%;
